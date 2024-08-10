@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(122, 178, 243);
+    color: white;
+    gap: 5px;
+}
+.mainsec{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:10px;
+}
+.mainsec div{
+    width: 500px;
+    height: 300px;
+    border: 1px solid white;
+}
+.sec-1{
+    background-image: url('890a263e-ed6c-4808-aaf2-ea5f37709a9c.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:black;
+    text-align: center;
+}
+.sec-2{
+    background-image: url('https://media.maalaimalar.com/h-upload/2024/08/09/3846305-olympics19.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:black;
+    text-align: center;
+}
+.sec-3{
+    background-image: url('https://feeds.abplive.com/onecms/images/uploaded-images/2024/08/08/a32a2429306378d88cb5486b2564bd611723113047589572_original.jpg?impolicy=abp_cdn&imwidth=1200&height=675');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:black;
+    text-align: center;
+}
+.sec-4{
+    background-image: url('https://media.maalaimalar.com/h-upload/2024/08/09/3844891-mkstalin.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:black;
+    text-align: center;
+}
+.sec-5{
+    background-image: url('https://imagesvs.oneindia.com/webp/ta/img/2024/08/screenshot37448-down-1723017723.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:black;
+    text-align: center;
+}
+.sec-6{
+    background-image: url('https://media.dailythanthi.com/h-upload/2024/08/10/5670410-union-bill.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:black;
+    text-align: center;
+}
+
+.sec-1  p, a{
+    margin-top: 120px;
+    color: black;
+}
+.sec-2  p, a{
+    margin-top: 170px;
+    color: black;
+}
+.sec-3  p, a{
+    margin-top: 100px;
+    color: black;
+}
+.sec-4  p, a{
+    margin-top: 170px;
+    color: black;
+}
+.sec-5  p, a{
+    margin-top: 150px;
+    color: black;
+}
+.sec-6 p, a{
+    margin-top: 170px;
+    color: black;
+}
+.mainsec > div:hover{
+    opacity: 0.8;
+    transform: scale(0.98);
+}
+a hover{
+    cursor: pointer;
+}
+.sec1 h2{
+    background-color: rgb(122, 178, 243) ;
+    margin-left: 5px;
+} 
+.sec1{
+    display: flex;
+}
